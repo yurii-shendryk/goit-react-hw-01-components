@@ -1,4 +1,4 @@
-// import user from './user.json';
+import user from './user.json';
 import Profile from './components/user-profile/Profile';
 import Stats from './components/user-stats/Stats';
 import StatisticList from './components/statistics/StatisticList';
@@ -10,7 +10,7 @@ const App = () => {
       <h2>user-profile</h2>
 
       <Profile
-        name={user.name}
+        name={user1.name}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
@@ -24,7 +24,7 @@ const App = () => {
 
       <h2>statistics</h2>
       <Statistic title="Upload Stats">
-        <StatisticList stats={statisticalData2} />
+        <StatisticList stats={statisticalData} />
       </Statistic>
     </>
   );
