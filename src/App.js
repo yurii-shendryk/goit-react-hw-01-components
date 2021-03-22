@@ -15,7 +15,7 @@ const App = () => {
         location={user.location}
         avatar={user.avatar}
       >
-        <Stats2
+        <Stats
           followers={user.stats.followers}
           views={user.stats.views}
           likes={user.stats.likes}
