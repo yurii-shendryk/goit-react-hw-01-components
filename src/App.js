@@ -10,7 +10,7 @@ const App = () => {
       <h2>user-profile</h2>
 
       <Profile
-        name={user1.name}
+        name={user.name}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
