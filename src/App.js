@@ -24,7 +24,7 @@ const App = () => {
 
       <h2>statistics</h2>
       <Statistic title="Upload Stats">
-        <StatisticList stats={statisticalData2} />
+        <StatisticList stats={statisticalData} />
       </Statistic>
     </>
   );
