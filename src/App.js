@@ -9,7 +9,7 @@ const App = () => {
     <>
       <h2>user-profile</h2>
 
-      <Profile2
+      <Profile
         name={user.name}
         tag={user.tag}
         location={user.location}
@@ -20,7 +20,7 @@ const App = () => {
           views={user.stats.views}
           likes={user.stats.likes}
         />
-      </Profile2>
+      </Profile>
 
       <h2>statistics</h2>
       <Statistic title="Upload Stats">
