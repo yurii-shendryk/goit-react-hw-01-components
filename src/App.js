@@ -1,9 +1,9 @@
-import user from "./user.json";
-import Profile from "./components/user-profile/Profile";
-import Stats from "./components/user-stats/Stats";
-import StatisticList from "./components/statistics/StatisticList";
-import statisticalData from "./statistical-data.json";
-import Statistic from "./components/statistics/Statistic.jsx";
+import user from './user.json';
+import Profile from './components/user-profile/Profile';
+import Stats from './components/user-stats/Stats';
+import StatisticList from './components/statistics/StatisticList';
+import statisticalData from './statistical-data.json';
+import Statistic from './components/statistics/Statistic.jsx';
 const App = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const App = () => {
 
       <h2>statistics</h2>
       <Statistic title="Upload Stats">
-        <StatisticList stats={statisticalData} />
+        <StatisticList stats={statisticalData2} />
       </Statistic>
     </>
   );
