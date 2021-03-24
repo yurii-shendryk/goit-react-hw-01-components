@@ -1,8 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import styles from './StatisticItem.module.css';
 const StatisticItem = ({ label, percentage }) => (
   <>
-    <span className="label">{label} </span>
-    <span className="percentage">{percentage}%</span>
+    <span className={styles.label}>{label} </span>
+    <span className={styles.percentage}>{percentage}%</span>
   </>
 );
 
