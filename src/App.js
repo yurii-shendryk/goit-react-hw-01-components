@@ -12,6 +12,7 @@ import transactions from './transactions.json';
 const App = () => {
   return (
     <Container>
+      {/* task 1 */}
       <Profile
         name={user.name}
         tag={user.tag}
@@ -24,13 +25,13 @@ const App = () => {
           likes={user.stats.likes}
         />
       </Profile>
-
+      {/* task 2 */}
       <Statistic title="Upload Stats">
         <StatisticList stats={statisticalData} />
       </Statistic>
-
+      {/* task 3 */}
       <FriendsList friends={friends} />
-
+      {/* task 4 */}
       <TransactionHistory items={transactions} />
     </Container>
   );

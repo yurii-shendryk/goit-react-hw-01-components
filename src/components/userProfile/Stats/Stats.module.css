@@ -1,8 +1,9 @@
 .stats {
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #85ffeb;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0 0 8px 8px;
 }
 
 .item {
@@ -21,7 +22,7 @@
 
 .label {
   font-size: 14px;
-  color: #888;
+  color: rgb(66, 4, 82);
   margin-bottom: 5px;
 }
 .quantity {
