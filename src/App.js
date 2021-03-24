@@ -4,7 +4,7 @@ import Stats from './components/userProfile/Stats/Stats';
 import StatisticList from './components/statistics/StatisticList/StatisticList';
 import Statistic from './components/statistics/Statistic/Statistic';
 import FriendsList from './components/Friends/FriendsList/FriendsList';
-import TransactionHistory from './components/Transactions/TransactionHistory/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import user from './user.json';
 import statisticalData from './statistical-data.json';
 import friends from './friends.json';
