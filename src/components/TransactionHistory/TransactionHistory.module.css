@@ -7,9 +7,10 @@
 }
 
 th {
+  padding: 20px;
+  text-transform: uppercase;
   color: #fff;
   background-color: lightskyblue;
-  padding: 20px;
 }
 
 th:not(:last-child) {
