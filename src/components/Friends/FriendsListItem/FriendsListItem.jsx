@@ -8,7 +8,12 @@ const FriendsListItem = ({ avatar, name, isOnline }) => (
     ) : (
       <span className={styles.offline}></span>
     )}
-    <img className={styles.avatar} src={avatar} alt={name} width="48" />
+    {avatar ? (
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+    ) : (
+      <img className={styles.avatar} src={defaultImage} alt={name} width="48" />
+    )}
+
     <p className={styles.name}>{name}</p>
   </li>
 );
