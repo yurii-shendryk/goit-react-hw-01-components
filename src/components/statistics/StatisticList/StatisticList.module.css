@@ -4,18 +4,3 @@
   align-items: center;
   border-radius: 0 0 8px 8px;
 }
-
-.item {
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.item:first-child {
-  border-radius: 0 0 0 8px;
-}
-
-.item:last-child {
-  border-radius: 0 0 8px 0;
-}

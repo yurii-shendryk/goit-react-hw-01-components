@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import Stats from '../Stats/Stats';
 import styles from './Profile.module.css';
 import defaultImage from './default-avatar.png';
 
-const Profile = ({ avatar, name, tag, location, children }) => {
+const Profile = ({ avatar, name, tag, location, stats }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
@@ -11,7 +12,11 @@ const Profile = ({ avatar, name, tag, location, children }) => {
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
       </div>
-      {children}
+      <Stats
+        followers={stats.followers}
+        views={stats.views}
+        likes={stats.likes}
+      />
     </div>
   );
 };
@@ -24,7 +29,7 @@ Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  stats: PropTypes.object.isRequired,
 };
 
 export default Profile;
